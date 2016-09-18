@@ -13,4 +13,7 @@ name | type | key |
 **Height** | int | `-h, --height`
 **Output** | string | `-o, --output`
 
-Note that you can't use both scale and width / height options
+Help will be displayed by `--help` key
+
+Note that you can't use both scale and width / height options  
+If output is not specified, output file will be   `<original_filename>__<width>x<height>.<original_extension>`
